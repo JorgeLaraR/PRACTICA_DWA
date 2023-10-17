@@ -1,0 +1,112 @@
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Espaciado interno del contenedor */
+}
+
+/* Estilo para el primer párrafo */
+.textoUno {
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: orangered;
+}
+
+/* Estilo para el segundo párrafo */
+.texto {
+    font-size: 16px; /* Tamaño de fuente */
+    color: palevioletred;
+}
+
+/* Estilo para el contenido dentro del div */
+.contenido {
+    background-color: greenyellow; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el div con borde */
+.border-contenido {
+    background-color: yellow;
+    color: black;
+    padding: 10px; /* Espaciado interno */
+    font-weight: bold; /* Texto en negrita */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/* Estilo para la tabla principal */
+.tabla-Principal {
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse; /* Combinar bordes de celdas */
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-Principal th {
+    background-color: blue; /* Color de fondo en el encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    text-align: center;
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px; /* Espaciado interno */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/* Estilo para las celdas de datos */
+.tabla-Principal td {
+    text-align: center; /* Alineación del texto en el centro */
+    padding: 5px; /* Espaciado interno */
+    background-color: aquamarine; /* Color de fondo en el encabezado */
+    color: rgb(88, 63, 63); /* Color del texto en el encabezado */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/* Estilo para el botón */
+.boton {
+    background-color: aqua; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin border */
+    cursor: pointer; /* Cambio de cursor al pasar pr encima */
+}
+
+/* Estilo para el botón con borde */
+.borde-boton {
+    background-color: transparent; /* Fondo transparente */
+    color: rgb(255, 69, 56); /*Color del tecxto del botón */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambio de cursor al pasar por encima */
+}
+
+/* Estilo para la tabla */
+.table-primary {
+    background-color: rgb(255, 255, 70); /* Color de fondo primario */
+    color: black; /* Color del texto en la tabla */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para las filas impares */
+.table-striped tbody tr:nth-child(odd) {
+    background-color: blueviolet; /* Color de fondo para filas impares */
+    text-align: center;
+}
+
+.boton {
+    background-color: rgb(220, 182, 255);
+}
+
+.borde-boton {
+    background-color: transparent;
+    color: black;
+    border: 2px solid orange;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.enlace {
+    color: rgb(72, 162, 247);
+    text-decoration: none;
+}
+
+.link-primary:hover {
+    text-decoration: underline;
+}
