@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Sistemas de Rejillas de bootstrap</title>
+</head>
+<body>
+    <!-- Contenido del navbar, incluye la lista de navegación y el formulario de búsqueda -->
+    <!-- La clase navbar navbar-expand-lg bg-nody-tertiary se utiliza para estabilizar el elemento nav que representa el navbar en del código HTML -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- Es crear un contenedor que se adapte al ancho de la plantalla -->
+        <div class="container-fluid">
+            <!-- Lista de navegación -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contactos</a>
+                </li>
+            </ul>
+            <!-- Formulario de búsqueda -->
+            <!-- d-flex significa "display", y "flex" se refiere al modelo de caja flexible de CSS -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="Busqueda" placeholder="Busqueda">
+                <!-- "btn-outline": Indica que el botón téndra un aspecto de contorno en luar de un fondo sólido. En lugar de un fondo de color sólido, el botón téndra un borde y texto con el color especificado. -->
+                <button class="btn btn-outline-primary" type="submit"> Buscar </button>
+            </form>
+        </div>
+    </nav><br>
+    <h2 class="titulo">BIENVENIDOS A MI SITIO WEB</h2><br>
+    <img src="/img/1.png" class="img-fluid">
+</body>
+</html>
