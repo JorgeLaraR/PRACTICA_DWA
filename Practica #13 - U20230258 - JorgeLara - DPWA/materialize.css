@@ -1,0 +1,145 @@
+/*////////////////////////////////ESTILO AL NAVBAR/////////////////////////*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px; /* Ajustar el espaciado entre los elementos de la lista */
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Establecer el color de los enlaces */
+    font-weight: bold; /* Hacer que el texto sea negrita */
+}
+
+/* Estilo de la barra de navegación */
+.nav-wrapper {
+    background-color: #ff8a80; /* Establecerel color de fondo */
+    padding: 25px; /* Agregar algo de relleno para un mejor espaciado */
+}
+
+/* Estilo del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Establecer el color de fondo del menú desplegable */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Agregar una sombra sutil */
+}
+
+/* Estilo de los elementos de la lista dentro del menú desplegable */
+.dropdown-content li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Agregar un borde entre los elementos */
+}
+
+/* Mostrar el menú desplegable cuando se pasa el ratón sobre el activador */
+.dropdown-trigger:hover .dropdown-content {
+    display: block;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(48, 88, 7);
+}
+
+/*////////////////////////////////ESTILO A LA TABLA/////////////////////////*/
+.container {
+    margin: 20px;
+    margin: auto;
+}
+
+/* Estilo para la cabecera de la tabla */
+thead.lime-text {
+    background-color: rgb(183, 219, 51);
+    font-weight: bold;
+    border: 2px solid #000;
+}
+
+/* Estilo para el cuerpo de la tabla */
+tbody.lime-text {
+    background-color: rgb(250, 139, 129);
+    color: rgb(10, 20, 10);
+    text-align: center;
+    border: 2px solid #000;
+}
+
+/* Estilo para resaltar la tabla */
+table.highlight {
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Establecer un ancho máximo */
+    text-align: center; /* Alinear todo el contenido de la tabla al centro */
+    border: 2px solid #000;
+    line-height: 2.0; /* Establecer el interlineado */
+}
+
+/* Estilo para centrar la tabla */
+table.centered {
+    margin: auto;
+    width: 100%; /* Establecer un ancho del 100% */
+}
+
+/*////////////////////////////////ESTILO DE LOS BOTONES/////////////////////////*/
+.container.center {
+    text-align: center;
+    margin: 20px;
+    margin: auto;
+}
+
+/* Estilos para el botón */
+button.btn {
+    background-color: rgb(183, 219, 51);
+    color: green;
+    padding: 12px 20px; /* Ajustar el relleno para cambiar el tamaño del botón */
+    margin: 5px; /* Agregar margen alrededor del botón */
+    border: 2px solid #000; /* Agregar borde de 2px s+olido negro */
+}
+
+/* Estilos para el enlace */
+a.btn {
+    background-color: rgb(250, 139, 129);
+    color: rgb(85, 112, 10);
+    padding: 16px 20px; /* Ajustar el relleno para cambiar el tamaño del enlace */
+    margin: 10px; /* Agregar margen alrededor del enlace */
+    border: 2px solid #000; /* Agregar borde de 2px sólido negro */
+}
+
+/* Estilos para los iconos dentro del botón y el enlace */
+.material-icons {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*//////////////////////////////////ESTILO DE FOOTER///////////////////////////////////////*/
+.page-footer {
+    background-color: rgb(250, 139, 129); /*Color de fondo del pie de pagina*/
+    color: #4b4141; /*color del texto del pie de pagina*/
+    margin: auto;
+}
+
+.page-footer a {
+    color: #080606; /*color de los enlaces en el pie de pagina*/
+}
+
+.page-footer a:hover {
+    text-decoration: underline; /*subrayar los enlaces en el hover*/
+}
+
+.container {
+    max-width: 1200px; /*establecer un ancho maximo para el contenido del pie de pagina*/
+}
+
+.row {
+    margin-bottom: 1; /*eliminar el margen inferior predeterminado de las filas*/
+}
+
+.footer-copyright {
+    background-color: #222; /*color de fondo del area de derechos de autor en el pie de pagina*/
+    color: #ccc; /*color del texto del area de derechos de autor*/
+    padding: 10px 0; /*agregar relleno superior e inferior*/
+}
