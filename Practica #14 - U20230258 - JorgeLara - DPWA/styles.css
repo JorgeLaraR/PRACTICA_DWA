@@ -1,0 +1,38 @@
+/* ESTILOS GENERALES PARA EL CUERPO DE LA PAGINA */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6ffa1; /* FONDO DE LA PAGINA */
+}
+/* ESTILOS PARA EL CONTENEDOR PRINCIPAL */
+.container{
+    text-align: center;
+    background-color: #fff; /*FONDO DEL CONTENEDOR PRINCIPAL*/
+    padding: 20PX;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*SOBRA LIGERA ALREDEDOR DEL CONTENEDOR*/
+}
+/* ESTILOS PARA LOS CAMPOS DE ENTRADA */
+input {
+    padding: 8px;
+    margin: 8px 0;
+}
+/* ESTILOS PARA LOS BOTONES */
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(0, 165, 110); /*COLOR DE FONDO DEL BOTON*/
+    color: #fff; /*COLOR DEL TEXTO DEL BOTON*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* CAMBIO DE COLOR AL PASAR EL MOUSE SOBRE EL BOTON */
+button:hover {
+    background-color: rgb(123, 0, 224); /*NUEVO COLOR DE FONDO AL PASAR EL MOUSE*/
+}
